@@ -1,9 +1,8 @@
 import streamlit as st
 from packages.utils import KoreanSalaryCalculator
-st.sidebar.title("About")
 
-st.sidebar.info(
-    "연봉 계산기")
+st.sidebar.title("About")
+st.sidebar.info("연봉 계산기")
 
 
 # 사용 예시
